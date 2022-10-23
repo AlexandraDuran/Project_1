@@ -8,6 +8,35 @@ body{
     background-size: cover;
     font-family: 'century Gothic', sans-serif;
 }
+header{
+    background-color: rgb(9, 9, 9) ;
+    width: 100%;
+    clear: both;
+    content: '';
+    display: table;
+    height: 50px;
+}
+.menu{
+    width: 900 px;
+    margin: 0 ;
+}
+
+nav{
+    float:right;
+}
+nav ul li{
+    list-style: none;/*borrar viñetas*/
+    margin-left: 75px;
+    margin-right: 60px;
+    padding: 12px 0;
+    float: left;
+    position: relative;
+}
+nav ul li a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+}
 .box{
     width: 500px;
     background:rgba(255, 255, 255, 0.8) ;
@@ -35,4 +64,9 @@ body{
 }
 .box p{
     text-align: justify;
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(148, 41, 110);
 }
